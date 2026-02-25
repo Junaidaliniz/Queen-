@@ -285,7 +285,7 @@ def build_group_message(otp, counter):
         text += f"<blockquote>\U0001f511 OTP: {otp_code}</blockquote>\n"
     text += f"\n<blockquote>\U0001f4e9 Full Message:</blockquote>\n"
     text += f"<pre>{otp['message']}</pre>\n\n"
-    text += f"<b>Powered By Junaid Niz</b> \U0001f497"
+    text += f"<b>Powered By Queen o</b> \U0001f497"
     return text
 
 
@@ -318,12 +318,12 @@ def build_user_message(otp, phone, country_name, flag):
 
 GROUP_KEYBOARD = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton("\U0001f3db Number", url="https://t.me/+ZAtSLrWm7XMxNjc8"),
-        InlineKeyboardButton("\U0001f47e DEVELOPER", url="https://t.me/+ZAtSLrWm7XMxNjc8"),
+        InlineKeyboardButton("\U0001f3db Number", url="https://t.me/LegendNumber91"),
+        InlineKeyboardButton("\U0001f47e DEVELOPER", url="https://t.me/Junaidniz786"),
     ],
     [
-        InlineKeyboardButton("\U0001f4cb Channel", url="https://t.me/+ZAtSLrWm7XMxNjc8"),
-        InlineKeyboardButton("\U0001f7e2 Whatsapp", url="https://t.me/+ZAtSLrWm7XMxNjc8"),
+        InlineKeyboardButton("\U0001f4cb Channel", url="https://t.me/LegendTech92"),
+        InlineKeyboardButton("\U0001f7e2 Whatsapp", url="https://whatsapp.com/channel/0029VbBbtd08V0tmjQXac13X"),
     ],
 ])
 
