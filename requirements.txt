@@ -1,2 +1,2 @@
-pip install -r python_requirements.txt
-python bot.py
+python-telegram-bot==21.3
+aiohttp==3.9.5
