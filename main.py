@@ -11,7 +11,7 @@ from telegram.constants import ParseMode
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8453214909:AAGPy_xyYcGUHcEWnjY0vFmul4"
+BOT_TOKEN = "8453214909:AAGPy_xyYcGUHcEWnjY0vFmul42gpdJMdM8"
 ADMIN_ID = 7011937754
 ADMINS = [7011937754]
 DEFAULT_SMS_API = "https://api-node-js-new-production-b09a.up.railway.app/api?type=sms"
