@@ -275,8 +275,7 @@ def build_group_message(otp, counter):
     otp_code = extract_otp(otp["message"])
     svc_icon = get_service_icon(otp["sender"])
 
-    text = f"<b>Temp Numbers</b>\n"
-    text += f"{counter} {country['flag']} <b>New {country['name']} {otp['sender']} OTP!</b>\n\n"
+    text = f"<b>b>{flag} o {country_name} {record['service']} OTP!</b>"
     text += f"<blockquote>\U0001f570 Time: {otp['timestamp']}</blockquote>\n"
     text += f"<blockquote>{country['flag']} Country: {country['name']}</blockquote>\n"
     text += f"<blockquote>{svc_icon} Service: {otp['sender']}</blockquote>\n"
