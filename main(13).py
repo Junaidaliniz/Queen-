@@ -57,9 +57,9 @@ def start(m):
     add_user(m.chat.id) # User ko DB mein save karein
     if not check_join(m.chat.id):
         kb = types.InlineKeyboardMarkup()
-        kb.add(types.InlineKeyboardButton("📢 Join Channel", url="https://t.me/PKOTPGROUP3"))
-        kb.add(types.InlineKeyboardButton("📢 Join Channel", url="https://t.me/PKNUMBERS3"))
-        kb.add(types.InlineKeyboardButton("📢 Join Channel", url="https://t.me/junaidniz"))
+        kb.add(types.InlineKeyboardButton("📢 Join Channel", url="https://t.me/AhmadEarningCenter"))
+        kb.add(types.InlineKeyboardButton("📢 Join Channel", url="https://t.me/ahmadtricks"))
+        kb.add(types.InlineKeyboardButton("📢 Join Channel", url="https://t.me/ahmad_tricks"))
         kb.add(types.InlineKeyboardButton("✅ Verify", callback_data="verify"))
         bot.send_message(m.chat.id, "❌ <b>Join required channels first!</b>", reply_markup=kb)
         return
@@ -110,7 +110,7 @@ def pick_country(c):
             types.InlineKeyboardButton("🔄 Change Number", callback_data=f"get|{country}"),
             types.InlineKeyboardButton("🌍 Change Country", callback_data="change")
         )
-        kb.row(types.InlineKeyboardButton("📱 OTP Group", url="https://t.me/PKOTPGROUP3"))
+        kb.row(types.InlineKeyboardButton("📱 OTP Group", url="https://t.me/ahmad_tricks"))
 
         text = (
             f"{flag} <b>Your Number ({flag} {country}):</b>\n\n"
