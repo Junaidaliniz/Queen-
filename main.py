@@ -6,7 +6,7 @@ from telebot import types
 
 # --- CONFIGURATION ---
 BOT_TOKEN = "8788622601:AAGZpH0FqTIo709jqzIu50rFAOdNXULUV2Q"
-ADMINS = [8788622601]
+ADMINS = [7745665836]
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML", threaded=True, num_threads=15)
 
