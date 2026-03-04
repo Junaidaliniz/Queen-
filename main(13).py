@@ -5,8 +5,8 @@ import time
 from telebot import types
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "8521196254:AAG9O05Oe_96tn1qgKK7XrVjLozCEL7K1g8"
-ADMINS = [8410638169]
+BOT_TOKEN = "8788622601:AAGZpH0FqTIo709jqzIu50rFAOdNXULUV2Q"
+ADMINS = [8788622601]
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML", threaded=True, num_threads=15)
 
