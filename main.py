@@ -65,7 +65,6 @@ def start(m):
         bot.send_message(m.chat.id, "❌ <b>Join required channels first!</b>", reply_markup=kb)
         return
     show_countries(m.chat.id)
-
 @+(func=lambda c: c.data == "verify")
 def verify(c):
     if check_join(c.from_user.id):
