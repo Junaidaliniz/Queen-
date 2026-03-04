@@ -43,7 +43,7 @@ def is_admin(uid): return uid in ADMINS
 
 # ================= JOIN CHECK =================
 def check_join(uid):
-    required_channels = ["@PKOTPGROUP3", "@PKNUMBERS3"]
+    required_channels = ["@AhmadEarningCenter", "@ahmadtricks"]
     for ch in required_channels:
         try:
             m = bot.get_chat_member(ch, uid)
